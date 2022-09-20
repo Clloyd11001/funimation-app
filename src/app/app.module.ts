@@ -4,11 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FirNavBarComponent } from './navigation/fir-nav-bar/fir-nav-bar.component';
+import { AlarmComponent } from './alarm/alarm.component';
+import { BodyComponent } from './body/body.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FirNavBarComponent
+    FirNavBarComponent,
+    AlarmComponent,
+    BodyComponent
   ],
   imports: [
     BrowserModule,
