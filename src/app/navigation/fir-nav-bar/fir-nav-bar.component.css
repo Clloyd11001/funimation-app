@@ -36,3 +36,7 @@
 	background-color: #fff; }
 
 	.container-fluid { padding: 0; }
+
+	.left-buffer{
+		padding-left: 50px;
+	  }
