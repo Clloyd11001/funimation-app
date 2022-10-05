@@ -23,8 +23,38 @@
 	border-right: 1px solid #ccc; }
 #nav li:first-child a {
 	border-left: 1px solid #ccc; }
-#nav li a:hover {
-	color: #c00;
-	background-color: #fff; }
+#nav li a {
+	color: white;
+	 }
 
 #nav container-fluid { padding: 0; }
+
+.h1-module{
+	height: 8;
+	width: 166;
+}
+
+.container-header{
+	padding-left: .5%;
+	float: left;
+	color: white;
+	width: 200;
+}
+
+.container-fluid{
+	padding: 0 !important
+}
+
+.container-wrap{
+	padding-left: 4%;
+	background-color: rgb(32, 0.0, 76)
+}
+
+.slideshow-buffer{
+	padding-bottom: 5;
+}
+
+
+
+
+
