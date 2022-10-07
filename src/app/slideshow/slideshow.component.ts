@@ -1,4 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
+// import { constructor } from 'jasmine';
+import { slideshow_images } from './slideshow-images';
+import { Slideshow_images_model } from './slideshow-images.model';
 
 @Component({
   selector: 'app-slideshow',
@@ -11,10 +14,14 @@ export class SlideshowComponent implements OnInit {
 @Input() img: string;
 @Input() img: string;
  */
-
-  constructor() { 
-    this.picture = "";
+reel: Slideshow_images_model[] = []
+constructor(){
+  this.picture = "";
+  for(var x of slideshow_images){
+    console.log(x)
+    this.reel.push(x)
   }
+}
 
   ngOnInit(): void {
   }

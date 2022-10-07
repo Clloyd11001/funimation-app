@@ -20,4 +20,6 @@ describe('SlideshowComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  
 });

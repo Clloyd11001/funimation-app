@@ -7,6 +7,8 @@ import { FirNavBarComponent } from './navigation/fir-nav-bar/fir-nav-bar.compone
 import { AlarmComponent } from './alarm/alarm.component';
 import { BodyComponent } from './body/body.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
+import { viewAllShows } from './navigation/fir-nav-bar/view-all-shows.component';
+import { HomeLayoutComponent } from './navigation/fir-nav-bar/home-layout.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { SlideshowComponent } from './slideshow/slideshow.component';
     FirNavBarComponent,
     AlarmComponent,
     BodyComponent,
-    SlideshowComponent
+    SlideshowComponent,
+    viewAllShows,
+    HomeLayoutComponent
   ],
   imports: [
     BrowserModule,
