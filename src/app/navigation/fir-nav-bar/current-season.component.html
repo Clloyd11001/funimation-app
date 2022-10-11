@@ -1,0 +1,22 @@
+<app-alarm style="background-color:rgb(0, 0.0, 0);">
+</app-alarm>
+
+<app-fir-nav-bar></app-fir-nav-bar>
+
+<div class="card bg-light text-dark card-text-right">
+    <img class="img-responsive" src="assets/SPRING_2022.png" class="card-img" alt="...">
+
+    <div class="col text-center top-buffer bottom-buffer">
+
+        <h1>Only on Crunchyroll</h1>
+
+    </div>
+    <div style="background-color:rgb(255,255,255)">
+        <div class="wrapper">
+            <div class="row row-cols-4 ">
+                <div *ngFor="let x of reel">
+                    <img src={{x.picture}} class="img-fluid bottom-buffer">
+
+                </div>
+            </div>
+        </div>

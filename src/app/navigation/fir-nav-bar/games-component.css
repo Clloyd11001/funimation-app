@@ -1,0 +1,28 @@
+.wrapper {
+
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+.bottom-buffer {
+
+    padding-bottom: 50px;
+
+}
+
+.h1 {
+    font-size: 32px;
+font-weight: 300;
+line-height: 32px;
+letter-spacing: -1px;
+padding-top: 4%;
+    font-family: 'Open Sans', "Hiragino Sans", Arial, sans-serif;
+}
+
+.p{
+    font-family: 'Open Sans', "Hiragino Sans", Arial, sans-serif;
+}

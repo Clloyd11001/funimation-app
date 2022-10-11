@@ -1,7 +1,10 @@
 <nav class="navbar navbar-expand-lg ">
   <div class="left-buffer container-fluid">
-    <img src="/assets/Funimation-Logo-White.png" alt=""  width="125" height="60">
-
+    
+    <a href="#">
+      <img routerLink="" href="#" src="/assets/Funimation-Logo-White.png" alt=""  width="125" height="60">
+      </a> 
+    
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -12,23 +15,23 @@
           <a class="nav-link active" aria-current="page" href="#"> </a>
         </li>
         <li class="nav-item dropdown px-5">
-          <a class="nav-link dropdown-toggle text-primary" role="button" href="#" data-bs-toggle="dropdown"><li><a routerLink="/">Home</a></li></a>
+          <a  class="nav-link  text-primary" role="button" href="#" data-bs-toggle="dropdown"><strong> Stream </strong></a>
           <ul class="dropdown-menu">
-            <li><a routerLink="View-All-Shows" class="dropdown-item" href="#">All Titles</a></li>
-            <li><a class="dropdown-item" href="#">Current Season</a></li>
+            <li><a routerLink="shows" class="dropdown-item" href="#">All Titles</a></li>
+            <li><a routerLink="simuldubs" class="dropdown-item" href="#">Current Season</a></li>
             <li><a class="dropdown-item" href="#">Schedule</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown px-5">
-          <a class="nav-link dropdown-toggle text-primary" role="button" href="#" data-bs-toggle="dropdown">Discover</a>
+          <a class="nav-link text-primary" role="button" href="#" data-bs-toggle="dropdown"><strong> Discover </strong></a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Games</a></li>
+            <li><a routerLink="games" class="dropdown-item" href="#">Games</a></li>
             <li><a class="dropdown-item" href="#">News</a></li>
             <li><a class="dropdown-item" href="#">Theatre</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown px-5">
-          <a class="nav-link dropdown-toggle text-primary" role="button" href="#" data-bs-toggle="dropdown">Shop</a>
+          <a class="nav-link text-primary" role="button" href="#" data-bs-toggle="dropdown"><strong>Shop</strong></a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Home Video</a></li>
             <li><a class="dropdown-item" href="#">Pre-Orders</a></li>
@@ -41,16 +44,15 @@
         </li>
       </ul>
       <!-- Premium Plus -->
-      <button type="button" class="mx-2 mb-2 bg-warning text-dark btn btn-warning">
-        TRY PREMIUM PLUS
+      <button type="button" class="mx-2 mb-2 bg-warning text-dark btn btn-warning"><strong>  TRY PREMIUM PLUS</strong>
       </button>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item ">
-          <a class="nav-link-primary" class="text-decoration-none" href="https://store.crunchyroll.com/">Log In</a>
+          <a class="nav-link-primary" class="text-decoration-none" href="https://store.crunchyroll.com/"><strong>Log In</strong></a>
         </li>
       </ul>
       <div class="dropdown">
-        <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+        <button class="btn btn-white " type="button" id="dropdownMenuButton" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">
           <img src="https://static.funimation.com/static/img/icons/icon-search.svg" alt="..." class="img-thumbnail">
         </button>

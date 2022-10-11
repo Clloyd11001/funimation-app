@@ -7,8 +7,11 @@ import { FirNavBarComponent } from './navigation/fir-nav-bar/fir-nav-bar.compone
 import { AlarmComponent } from './alarm/alarm.component';
 import { BodyComponent } from './body/body.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
-import { viewAllShows } from './navigation/fir-nav-bar/view-all-shows.component';
 import { HomeLayoutComponent } from './navigation/fir-nav-bar/home-layout.component';
+import { CurrentSeasonComponent } from './navigation/fir-nav-bar/current-season.component';
+import { ViewAllShowsComponent } from './navigation/fir-nav-bar/view-all-shows.component';
+import { GamesComponent } from './navigation/fir-nav-bar/games-component';
+
 
 @NgModule({
   declarations: [
@@ -17,8 +20,10 @@ import { HomeLayoutComponent } from './navigation/fir-nav-bar/home-layout.compon
     AlarmComponent,
     BodyComponent,
     SlideshowComponent,
-    viewAllShows,
-    HomeLayoutComponent
+    HomeLayoutComponent,
+    CurrentSeasonComponent,
+    ViewAllShowsComponent,
+    GamesComponent
   ],
   imports: [
     BrowserModule,
