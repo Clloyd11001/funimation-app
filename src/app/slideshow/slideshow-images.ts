@@ -12,7 +12,23 @@ export const slideshow_images = [
 
     },
     {
-        picture: "assets/2363410_BRR_Keyart_e93e8fbe-ea55-450c-8e96-4635784a8fa2.jpg",
+        picture: "assets/AKEBIS.jpg",
+
+    },
+    {
+        picture: "/assets/DEMON_SLAYER.jpg",
+
+    },
+    {
+        picture: "assets/DEATH_NOTE.jpg",
+
+    },
+    {
+        picture: "assets/DBZ_GT.jpg",
+
+    },
+    {
+        picture: "assets/OUTLAW.jpg",
 
     },
 

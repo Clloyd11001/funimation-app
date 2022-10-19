@@ -6,7 +6,7 @@
 
 .top-buffer {
   
-  padding-top: 25px;
+  padding-top: 2%;
  
 }
 
@@ -24,7 +24,7 @@
   padding-left: 50px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 100%) {
   .carousel-inner .carousel-item > div {
       display: none;
   }

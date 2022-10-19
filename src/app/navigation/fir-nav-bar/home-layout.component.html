@@ -1,32 +1,8 @@
-<!-- Blue Text Box Image at the Top of Page -->
-<div class="alert alert-info" style="width: 100%; background-color: rgb(65, 0, 153);" role="alert">
-  <p class="text-center text-white">
-    <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <strong>NEW SEASON = NEW ANIME! GET UP TO SPEED ON
-      THIS
-      SEASON'S LINEUP OVER ON CRUNCHYROLL!</strong>
-  </p>
-</div>
+<app-alarm></app-alarm>
 
 <app-fir-nav-bar></app-fir-nav-bar>
 
-<div class="card bg-dark text-white card-text-right">
-  <img src="assets/website_crunchygirl.png" class="card-img" alt="...">
-
-  <div class="col">
-
-
-    <div class="card-img-overlay top-buffer" style="width: 18rem;">
-
-      <img class="img-responsive " src="assets/crunchyroll_logo.png" width="490" height="88.7" alt="crunchyroll_logo">
-      <p class="lead">
-      <p class="card-text-right" td class="align-bottom">Get ready for the most Supercharged anime season yet!
-        Anime mega hits are back plus new fan favorites. Find them all on Crunchyroll.
-      </p>
-
-      <a href="#" class="btn btn-primary">TELL ME MORE</a>
-    </div>
-  </div>
-</div>
+<app-body></app-body>
 
 
 <div style="background-color:rgb(32, 0.0, 76)">
@@ -39,11 +15,11 @@
         Continuing Simulcasts (find even more shows on Crunchyroll)
       </p>
     </strong>
-
-    <div class="row row-cols-6 left-buffer" role="listbox">
+    <div class="row row-cols-6 left-buffer bottom-buffer" role="listbox">
       <div *ngFor="let x of reel">
-        <img src={{x.picture}} class="img-fluid">
+        <img src={{x.picture}} class="img-fluid bottom-buffer">
       </div>
     </div>
   </div>
 </div>
+

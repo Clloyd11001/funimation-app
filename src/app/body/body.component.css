@@ -8,10 +8,11 @@
 }
 .top-buffer {
   
-  padding-top: 100px;
-  padding-bottom: 200px;
-  padding-left: 80px;
-  margin-top: 20px;
+  margin-top: 5%;
+}
+
+.left-buffer{
+  padding-left: 5%;
 }
 
 .bottom-buffer {
