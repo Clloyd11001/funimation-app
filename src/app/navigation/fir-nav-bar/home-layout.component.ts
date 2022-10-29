@@ -12,9 +12,9 @@ export class HomeLayoutComponent {
   title = 'funimation-app';
   reel: Slideshow_images_model[] = []
   constructor(){
-    for(var x of slideshow_images){
+   /*  for(var x of slideshow_images){
       console.log(x)
       this.reel.push(x)
-    }
+    } */
   }
 }

@@ -11,6 +11,8 @@ import { HomeLayoutComponent } from './navigation/fir-nav-bar/home-layout.compon
 import { CurrentSeasonComponent } from './navigation/fir-nav-bar/current-season.component';
 import { ViewAllShowsComponent } from './navigation/fir-nav-bar/view-all-shows.component';
 import { GamesComponent } from './navigation/fir-nav-bar/games-component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './navigation/fir-nav-bar/user-info.component';
 
 
 @NgModule({
@@ -23,11 +25,13 @@ import { GamesComponent } from './navigation/fir-nav-bar/games-component';
     HomeLayoutComponent,
     CurrentSeasonComponent,
     ViewAllShowsComponent,
-    GamesComponent
+    GamesComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
