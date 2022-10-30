@@ -16,6 +16,7 @@ export class SlideshowService{
 
     getSlides(){
         return this.http.get<Slideshow_images_model []>(this.baseUrl + this.slideshowEndPoint);
+    
     }
 
     getSlide(index:number){
