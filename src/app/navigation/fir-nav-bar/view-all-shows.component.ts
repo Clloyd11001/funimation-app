@@ -9,22 +9,18 @@ import { view_all_shows_images_model } from './view-all-shows-images.model';
   styleUrls: ['./view-all-shows.component.css']
 })
 export class ViewAllShowsComponent {
-@Input() picture: string;
-/* @Input() img: string;
-@Input() img: string;
-@Input() img: string;
- */
-reel: view_all_shows_images_model[] = []
-constructor(){
-  this.picture = "";
-  for(var x of view_all_shows_images){
-    console.log(x)
-    this.reel.push(x)
+  @Input() picture: string;
+
+  reel: view_all_shows_images_model[] = []
+  constructor() {
+    this.picture = "";
+    for (var x of view_all_shows_images) {
+      console.log(x)
+      this.reel.push(x)
+    }
   }
-}
 
   ngOnInit(): void {
   }
 
 }
- 
