@@ -11,7 +11,7 @@ import {AngularFireDatabase} from '@angular/fire/compat/database'
 
 export class SlideshowService{
     private baseUrl:string = "https://funimation-app-default-rtdb.firebaseio.com/";
-    private slideshowEndPoint:string = "Slideshow.json";
+    private slideshowEndPoint:string = "Slideshow";
 
     constructor(private db:AngularFireDatabase){
 
@@ -26,6 +26,6 @@ export class SlideshowService{
     }
 
     addSlideShow(slide: Slideshow_images_model){
-        this.db.list<Slideshow_images_model>("Slides").push(slide);
+        this.db.list<Slideshow_images_model>("Slideshow").push(slide);
     }
 }
