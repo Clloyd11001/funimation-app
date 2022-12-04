@@ -20,12 +20,13 @@ export class HomeLayoutComponent {
     } */
   }
   ngOnInit(): void{
-    this.slideshowService.getSlides().subscribe((data: Slideshow_images_model []) => {
+   /*  this.slideshowService.getSlides().subscribe((data: Slideshow_images_model []) => {
       console.log("Fetching slides");
      for(var slide of data){
       console.log(slide);
       this.reel.push(slide);
      }
     })
-  }
+  } */
+}
 }

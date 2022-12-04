@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <form #postForm="ngForm" (ngSubmit)="addSlideshow(postForm.value)">
+                <div class="input-group">
+                    <span class="input-group-text"> Name </span>
+                    <input type="test" class="form-control" ngModel name="img">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text"> Genre </span>
+                    <input type="test" class="form-control">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text"> Release Date </span>
+                    <input type="test" class="form-control">
+                </div>
+
+                <button class="btn btn-light" type="submit">Add AnimeSlide</button>
+            </form>
+        </div>
+    </div>
+</div>

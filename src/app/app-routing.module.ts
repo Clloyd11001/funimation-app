@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AddSlideshowComponent } from './add-slideshow/add-slideshow.component';
 import { CurrentSeasonComponent } from './navigation/fir-nav-bar/current-season.component';
 import { GamesComponent } from './navigation/fir-nav-bar/games-component';
 import { HomeLayoutComponent } from './navigation/fir-nav-bar/home-layout.component';
@@ -8,9 +9,11 @@ import { ViewAllShowsComponent } from './navigation/fir-nav-bar/view-all-shows.c
 
 const routes: Routes =
   [ {path : '', component:HomeLayoutComponent},
+  {path : 'home', component:HomeLayoutComponent},
     {path: 'shows', component: ViewAllShowsComponent},
     {path: 'simuldubs', component: CurrentSeasonComponent},
-    {path: 'games', component: GamesComponent}
+    {path: 'games', component: GamesComponent},
+    {path: 'admin', component:AddSlideshowComponent}
   ];
 
 @NgModule({
