@@ -21,9 +21,12 @@ export class UserInfoComponent implements OnInit{
     }
 
     getUserInfo(){
-        return this.http.get<UserInfo>("https://funimation-app-default-rtdb.firebaseio.com/my-info.json");
+        return this.http.get<UserInfo>("https://funimation-app-default-rtdb.firebaseio.com/myinfo.json");
 
     }
+    
+  
+
 
     showUserInfo(){
         this.getUserInfo().subscribe((data: UserInfo) => {

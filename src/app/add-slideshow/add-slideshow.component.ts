@@ -14,6 +14,7 @@ export class AddSlideshowComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  
   addSlideshow(slide:Slideshow_images_model){
     console.log("You clicked add slide")
     console.log(slide)

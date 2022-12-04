@@ -9,16 +9,7 @@ import { getAnalytics } from "firebase/analytics";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyARNofmYCUJYR39V9AfkBn5iygN5zAaaJw",
-  authDomain: "funimation-app.firebaseapp.com",
-  databaseURL: "https://funimation-app-default-rtdb.firebaseio.com",
-  projectId: "funimation-app",
-  storageBucket: "funimation-app.appspot.com",
-  messagingSenderId: "446899955196",
-  appId: "1:446899955196:web:6b1d9d271cc60f846ebe79",
-  measurementId: "G-D74100PPMK"
-};
+
 
 
 export const environment = {
@@ -37,8 +28,8 @@ export const environment = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+//const app = initializeApp(firebaseConfig);
+//const analytics = getAnalytics(app);
 
 
 /*

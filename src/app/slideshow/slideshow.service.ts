@@ -18,11 +18,8 @@ export class SlideshowService{
     }
 
     getSlides(){
-        return this.db.list<Slideshow_images_model>("slide").valueChanges();
+        return this.db.list<Slideshow_images_model>("Slideshow").valueChanges();
     
-    }
-
-    getSlide(index:number){
     }
 
     addSlideShow(slide: Slideshow_images_model){

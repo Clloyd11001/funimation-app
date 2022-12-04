@@ -4,11 +4,11 @@
             <form #postForm="ngForm" (ngSubmit)="addSlideshow(postForm.value)">
                 <div class="input-group">
                     <span class="input-group-text"> Image Path </span>
-                    <input type="test" class="form-control" ngModel name="img">
+                    <input type="test" class="form-control" required ngModel name="img">
                 </div>
 
 
-                <button class="btn btn-light" type="submit">Add AnimeSlide</button>
+                <button class="btn btn-light" type="submit" [disabled]="!postForm.valid">Add AnimeSlide</button>
             </form>
         </div>
     </div>
