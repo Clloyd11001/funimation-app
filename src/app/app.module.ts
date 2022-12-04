@@ -13,6 +13,12 @@ import { ViewAllShowsComponent } from './navigation/fir-nav-bar/view-all-shows.c
 import { GamesComponent } from './navigation/fir-nav-bar/games-component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './navigation/fir-nav-bar/user-info.component';
+import { AddSlideshowComponent } from './add-slideshow/add-slideshow.component';
+import { FormsModule } from '@angular/forms';
+import { FirebaseApp } from 'firebase/app';
+import {AngularFireModule} from '@angular/fire/compat'
+import {AngularFirestoreModule} from '@angular/fire/compat/firestore'
+import { environment } from 'src/environments/environment';
 
 
 @NgModule({
@@ -26,12 +32,16 @@ import { UserInfoComponent } from './navigation/fir-nav-bar/user-info.component'
     CurrentSeasonComponent,
     ViewAllShowsComponent,
     GamesComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    AddSlideshowComponent,
+  
+  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
