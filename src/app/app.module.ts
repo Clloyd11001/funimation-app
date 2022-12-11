@@ -19,6 +19,7 @@ import { FirebaseApp } from 'firebase/app';
 import {AngularFireModule} from '@angular/fire/compat'
 import {AngularFirestoreModule} from '@angular/fire/compat/firestore'
 import { environment } from 'src/environments/environment';
+import { AuthComponent } from './auth/auth.component';
 
 
 @NgModule({
@@ -34,7 +35,7 @@ import { environment } from 'src/environments/environment';
     GamesComponent,
     UserInfoComponent,
     AddSlideshowComponent,
-  
+    AuthComponent
   
   ],
   imports: [
